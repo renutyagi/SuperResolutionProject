@@ -1,0 +1,88 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+IMAGELOADER_H	ImageLoader.h	2;"	d
+IMAGE_REGISTRATER	ImageRegistrater.h	2;"	d
+ImageList	types.h	/^typedef std::list<Mat>          ImageList;$/;"	t
+ImageLoader	ImageLoader.cpp	/^ImageLoader::ImageLoader()$/;"	f	class:ImageLoader	signature:()
+ImageLoader	ImageLoader.cpp	/^ImageLoader::ImageLoader(int argc, const char *argv[])$/;"	f	class:ImageLoader	signature:(int argc, const char *argv[])
+ImageLoader	ImageLoader.h	/^    ImageLoader();$/;"	p	class:ImageLoader	access:public	signature:()
+ImageLoader	ImageLoader.h	/^    ImageLoader(int argc, const char *argv[]);$/;"	p	class:ImageLoader	access:public	signature:(int argc, const char *argv[])
+ImageLoader	ImageLoader.h	/^class ImageLoader$/;"	c
+ImageLoader::ImageLoader	ImageLoader.cpp	/^ImageLoader::ImageLoader()$/;"	f	class:ImageLoader	signature:()
+ImageLoader::ImageLoader	ImageLoader.cpp	/^ImageLoader::ImageLoader(int argc, const char *argv[])$/;"	f	class:ImageLoader	signature:(int argc, const char *argv[])
+ImageLoader::ImageLoader	ImageLoader.h	/^    ImageLoader();$/;"	p	class:ImageLoader	access:public	signature:()
+ImageLoader::ImageLoader	ImageLoader.h	/^    ImageLoader(int argc, const char *argv[]);$/;"	p	class:ImageLoader	access:public	signature:(int argc, const char *argv[])
+ImageLoader::fileNames	ImageLoader.h	/^    std::list<std::string>          fileNames;$/;"	m	class:ImageLoader	access:private
+ImageLoader::getFileNames	ImageLoader.cpp	/^const std::list<std::string> & ImageLoader::getFileNames()$/;"	f	class:ImageLoader	signature:()
+ImageLoader::getFileNames	ImageLoader.h	/^    const std::list<std::string>&   getFileNames();$/;"	p	class:ImageLoader	access:public	signature:()
+ImageLoader::loadImages	ImageLoader.cpp	/^ImageList ImageLoader::loadImages()$/;"	f	class:ImageLoader	signature:()
+ImageLoader::loadImages	ImageLoader.h	/^    ImageList	                    loadImages();$/;"	p	class:ImageLoader	access:public	signature:()
+ImageRegistrater	ImageRegistrater.cpp	/^ImageRegistrater::ImageRegistrater()$/;"	f	class:ImageRegistrater	signature:()
+ImageRegistrater	ImageRegistrater.h	/^    ImageRegistrater();$/;"	p	class:ImageRegistrater	access:public	signature:()
+ImageRegistrater	ImageRegistrater.h	/^class ImageRegistrater $/;"	c
+ImageRegistrater::ImageRegistrater	ImageRegistrater.cpp	/^ImageRegistrater::ImageRegistrater()$/;"	f	class:ImageRegistrater	signature:()
+ImageRegistrater::ImageRegistrater	ImageRegistrater.h	/^    ImageRegistrater();$/;"	p	class:ImageRegistrater	access:public	signature:()
+ImageRegistrater::produceMedian	ImageRegistrater.h	/^    inline uchar produceMedian(std::list<uchar> pixelValues)$/;"	f	class:ImageRegistrater	access:private	signature:(std::list<uchar> pixelValues)
+ImageRegistrater::registerImages	ImageRegistrater.cpp	/^Mat ImageRegistrater::registerImages(ImageList inputImages)$/;"	f	class:ImageRegistrater	signature:(ImageList inputImages)
+ImageRegistrater::registerImages	ImageRegistrater.h	/^    Mat registerImages(ImageList images);$/;"	p	class:ImageRegistrater	access:public	signature:(ImageList images)
+ImageRegistrater::removeBadPoints	ImageRegistrater.cpp	/^PointVector ImageRegistrater::removeBadPoints(PointVector points, std::vector<uchar> status)$/;"	f	class:ImageRegistrater	signature:(PointVector points, std::vector<uchar> status)
+ImageRegistrater::removeBadPoints	ImageRegistrater.h	/^    inline PointVector  removeBadPoints(PointVector points, std::vector<uchar> status);$/;"	p	class:ImageRegistrater	access:private	signature:(PointVector points, std::vector<uchar> status)
+ImageRegistrater::~ImageRegistrater	ImageRegistrater.cpp	/^ImageRegistrater::~ImageRegistrater()$/;"	f	class:ImageRegistrater	signature:()
+ImageRegistrater::~ImageRegistrater	ImageRegistrater.h	/^    virtual ~ImageRegistrater();$/;"	p	class:ImageRegistrater	access:public	signature:()
+PointVector	types.h	/^typedef std::vector<Point2f>    PointVector;$/;"	t
+SCALLER	Scaller.h	2;"	d
+Scaller	Scaller.cpp	/^Scaller::Scaller()$/;"	f	class:Scaller	signature:()
+Scaller	Scaller.h	/^    Scaller();$/;"	p	class:Scaller	access:public	signature:()
+Scaller	Scaller.h	/^class Scaller $/;"	c
+Scaller::Scaller	Scaller.cpp	/^Scaller::Scaller()$/;"	f	class:Scaller	signature:()
+Scaller::Scaller	Scaller.h	/^    Scaller();$/;"	p	class:Scaller	access:public	signature:()
+Scaller::upscaleImage	Scaller.cpp	/^Mat Scaller::upscaleImage(Mat image, int scale)$/;"	f	class:Scaller	signature:(Mat image, int scale)
+Scaller::upscaleImage	Scaller.h	/^    Mat upscaleImage(Mat image, int scale);$/;"	p	class:Scaller	access:public	signature:(Mat image, int scale)
+Scaller::upscaleImages	Scaller.cpp	/^ImageList Scaller::upscaleImages(ImageList inputImages, int scale) $/;"	f	class:Scaller	signature:(ImageList inputImages, int scale)
+Scaller::upscaleImages	Scaller.h	/^    ImageList upscaleImages(ImageList inputImages, int scale);$/;"	p	class:Scaller	access:public	signature:(ImageList inputImages, int scale)
+Scaller::~Scaller	Scaller.cpp	/^Scaller::~Scaller()$/;"	f	class:Scaller	signature:()
+Scaller::~Scaller	Scaller.h	/^    virtual ~Scaller();$/;"	p	class:Scaller	access:public	signature:()
+TYPES_H	types.h	2;"	d
+UTIL	util.h	2;"	d
+fileNames	ImageLoader.h	/^    std::list<std::string>          fileNames;$/;"	m	class:ImageLoader	access:private
+getFileNames	ImageLoader.cpp	/^const std::list<std::string> & ImageLoader::getFileNames()$/;"	f	class:ImageLoader	signature:()
+getFileNames	ImageLoader.h	/^    const std::list<std::string>&   getFileNames();$/;"	p	class:ImageLoader	access:public	signature:()
+loadImages	ImageLoader.cpp	/^ImageList ImageLoader::loadImages()$/;"	f	class:ImageLoader	signature:()
+loadImages	ImageLoader.h	/^    ImageList	                    loadImages();$/;"	p	class:ImageLoader	access:public	signature:()
+main	main.cpp	/^int main(int argc, const char *argv[])$/;"	f	signature:(int argc, const char *argv[])
+markPixel	util.cpp	/^void util::markPixel(Mat& mat, int x, int y)$/;"	f	class:util	signature:(Mat& mat, int x, int y)
+markPixel	util.h	/^    void markPixel(Mat& mat, int x, int y);$/;"	p	namespace:util	signature:(Mat& mat, int x, int y)
+printImage	util.cpp	/^void util::printImage(const Mat& image, const std::string& windowName) $/;"	f	class:util	signature:(const Mat& image, const std::string& windowName)
+printImage	util.h	/^    void printImage(const Mat& image, const std::string& windowName);$/;"	p	namespace:util	signature:(const Mat& image, const std::string& windowName)
+printMatrix	util.cpp	/^void util::printMatrix(Mat & mat, int fieldWidth)$/;"	f	class:util	signature:(Mat & mat, int fieldWidth)
+printMatrix	util.h	/^    void printMatrix(Mat & mat, int fieldWidth = 4);$/;"	p	namespace:util	signature:(Mat & mat, int fieldWidth = 4)
+printPointVector	util.cpp	/^void util::printPointVector(const PointVector pVect, int fieldWidth)$/;"	f	class:util	signature:(const PointVector pVect, int fieldWidth)
+printPointVector	util.h	/^    void printPointVector(const PointVector pVect, int fieldWidth = 0);$/;"	p	namespace:util	signature:(const PointVector pVect, int fieldWidth = 0)
+printVector	util.h	/^    void printVector(const std::vector<T>& vect, int fieldWidth = 8) {$/;"	f	namespace:util	signature:(const std::vector<T>& vect, int fieldWidth = 8)
+produceMedian	ImageRegistrater.h	/^    inline uchar produceMedian(std::list<uchar> pixelValues)$/;"	f	class:ImageRegistrater	access:private	signature:(std::list<uchar> pixelValues)
+registerImages	ImageRegistrater.cpp	/^Mat ImageRegistrater::registerImages(ImageList inputImages)$/;"	f	class:ImageRegistrater	signature:(ImageList inputImages)
+registerImages	ImageRegistrater.h	/^    Mat registerImages(ImageList images);$/;"	p	class:ImageRegistrater	access:public	signature:(ImageList images)
+removeBadPoints	ImageRegistrater.cpp	/^PointVector ImageRegistrater::removeBadPoints(PointVector points, std::vector<uchar> status)$/;"	f	class:ImageRegistrater	signature:(PointVector points, std::vector<uchar> status)
+removeBadPoints	ImageRegistrater.h	/^    inline PointVector  removeBadPoints(PointVector points, std::vector<uchar> status);$/;"	p	class:ImageRegistrater	access:private	signature:(PointVector points, std::vector<uchar> status)
+upscaleImage	Scaller.cpp	/^Mat Scaller::upscaleImage(Mat image, int scale)$/;"	f	class:Scaller	signature:(Mat image, int scale)
+upscaleImage	Scaller.h	/^    Mat upscaleImage(Mat image, int scale);$/;"	p	class:Scaller	access:public	signature:(Mat image, int scale)
+upscaleImages	Scaller.cpp	/^ImageList Scaller::upscaleImages(ImageList inputImages, int scale) $/;"	f	class:Scaller	signature:(ImageList inputImages, int scale)
+upscaleImages	Scaller.h	/^    ImageList upscaleImages(ImageList inputImages, int scale);$/;"	p	class:Scaller	access:public	signature:(ImageList inputImages, int scale)
+util	util.h	/^namespace util {$/;"	n
+util::markPixel	util.cpp	/^void util::markPixel(Mat& mat, int x, int y)$/;"	f	class:util	signature:(Mat& mat, int x, int y)
+util::markPixel	util.h	/^    void markPixel(Mat& mat, int x, int y);$/;"	p	namespace:util	signature:(Mat& mat, int x, int y)
+util::printImage	util.cpp	/^void util::printImage(const Mat& image, const std::string& windowName) $/;"	f	class:util	signature:(const Mat& image, const std::string& windowName)
+util::printImage	util.h	/^    void printImage(const Mat& image, const std::string& windowName);$/;"	p	namespace:util	signature:(const Mat& image, const std::string& windowName)
+util::printMatrix	util.cpp	/^void util::printMatrix(Mat & mat, int fieldWidth)$/;"	f	class:util	signature:(Mat & mat, int fieldWidth)
+util::printMatrix	util.h	/^    void printMatrix(Mat & mat, int fieldWidth = 4);$/;"	p	namespace:util	signature:(Mat & mat, int fieldWidth = 4)
+util::printPointVector	util.cpp	/^void util::printPointVector(const PointVector pVect, int fieldWidth)$/;"	f	class:util	signature:(const PointVector pVect, int fieldWidth)
+util::printPointVector	util.h	/^    void printPointVector(const PointVector pVect, int fieldWidth = 0);$/;"	p	namespace:util	signature:(const PointVector pVect, int fieldWidth = 0)
+util::printVector	util.h	/^    void printVector(const std::vector<T>& vect, int fieldWidth = 8) {$/;"	f	namespace:util	signature:(const std::vector<T>& vect, int fieldWidth = 8)
+~ImageRegistrater	ImageRegistrater.cpp	/^ImageRegistrater::~ImageRegistrater()$/;"	f	class:ImageRegistrater	signature:()
+~ImageRegistrater	ImageRegistrater.h	/^    virtual ~ImageRegistrater();$/;"	p	class:ImageRegistrater	access:public	signature:()
+~Scaller	Scaller.cpp	/^Scaller::~Scaller()$/;"	f	class:Scaller	signature:()
+~Scaller	Scaller.h	/^    virtual ~Scaller();$/;"	p	class:Scaller	access:public	signature:()

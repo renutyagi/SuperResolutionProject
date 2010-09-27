@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CXXTEST_RUNNING	runner.cpp	4;"	d	file:
+IMAGELOADERTEST	ImageLoaderTest.h	2;"	d
+ImageLoaderTest	ImageLoaderTest.h	/^class ImageLoaderTest : public CxxTest::TestSuite$/;"	c	inherits:CxxTest::TestSuite
+ImageLoaderTest::testLoadingImages	ImageLoaderTest.h	/^     void testLoadingImages() {$/;"	f	class:ImageLoaderTest	access:public	signature:()
+TestDescription_ImageLoaderTest_testLoadingImages	runner.cpp	/^ TestDescription_ImageLoaderTest_testLoadingImages() : CxxTest::RealTestDescription( Tests_ImageLoaderTest, suiteDescription_ImageLoaderTest, 10, "testLoadingImages" ) {}$/;"	f	class:TestDescription_ImageLoaderTest_testLoadingImages	access:public	signature:()
+TestDescription_ImageLoaderTest_testLoadingImages	runner.cpp	/^static class TestDescription_ImageLoaderTest_testLoadingImages : public CxxTest::RealTestDescription {$/;"	c	file:	inherits:CxxTest::RealTestDescription
+TestDescription_ImageLoaderTest_testLoadingImages::TestDescription_ImageLoaderTest_testLoadingImages	runner.cpp	/^ TestDescription_ImageLoaderTest_testLoadingImages() : CxxTest::RealTestDescription( Tests_ImageLoaderTest, suiteDescription_ImageLoaderTest, 10, "testLoadingImages" ) {}$/;"	f	class:TestDescription_ImageLoaderTest_testLoadingImages	access:public	signature:()
+TestDescription_ImageLoaderTest_testLoadingImages::runTest	runner.cpp	/^ void runTest() { suite_ImageLoaderTest.testLoadingImages(); }$/;"	f	class:TestDescription_ImageLoaderTest_testLoadingImages	access:public	signature:()
+Tests_ImageLoaderTest	runner.cpp	/^static CxxTest::List Tests_ImageLoaderTest = { 0, 0 };$/;"	v	file:
+main	ScallerTest.cpp	/^int main (int argc, char const* argv[])$/;"	f	signature:(int argc, char const* argv[])
+main	runner.cpp	/^int main( int argc, char *argv[] ) {$/;"	f	signature:( int argc, char *argv[] )
+main	utilTest.cpp	/^int main (int argc, char const* argv[])$/;"	f	signature:(int argc, char const* argv[])
+runTest	runner.cpp	/^ void runTest() { suite_ImageLoaderTest.testLoadingImages(); }$/;"	f	class:TestDescription_ImageLoaderTest_testLoadingImages	access:public	signature:()
+suite_ImageLoaderTest	runner.cpp	/^static ImageLoaderTest suite_ImageLoaderTest;$/;"	v	file:
+testDescription_ImageLoaderTest_testLoadingImages	runner.cpp	/^} testDescription_ImageLoaderTest_testLoadingImages;$/;"	v	typeref:class:TestDescription_ImageLoaderTest_testLoadingImages	file:
+testLoadingImages	ImageLoaderTest.h	/^     void testLoadingImages() {$/;"	f	class:ImageLoaderTest	access:public	signature:()
+testPrintVector	utilTest.cpp	/^void testPrintVector()$/;"	f	signature:()

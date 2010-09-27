@@ -1,0 +1,4 @@
+#!/bin/bash
+
+g++ imageloaderTest.cpp -I/usr/local/include/opencv/  -lcxcore -lcv -lcvaux -lhighgui -lml
+g++ utilTest.cpp -o utilTest

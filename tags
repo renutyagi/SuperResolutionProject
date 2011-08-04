@@ -3,7 +3,7 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 BINDIR	Makefile	/^BINDIR		= bin$/;"	m
 CXX	Makefile	/^CXX			= g++$/;"	m
 CXXFLAGS	Makefile	/^CXXFLAGS	= -O -I\/usr\/local\/include\/opencv\/ $/;"	m
@@ -18,6 +18,7 @@ ImageEnhancer	src/ImageEnhancer.h	/^    ImageEnhancer();$/;"	p	class:ImageEnhanc
 ImageEnhancer	src/ImageEnhancer.h	/^class ImageEnhancer $/;"	c
 ImageEnhancer::ImageEnhancer	src/ImageEnhancer.cpp	/^ImageEnhancer::ImageEnhancer()$/;"	f	class:ImageEnhancer	signature:()
 ImageEnhancer::ImageEnhancer	src/ImageEnhancer.h	/^    ImageEnhancer();$/;"	p	class:ImageEnhancer	access:public	signature:()
+ImageEnhancer::enhance	src/ImageEnhancer.cpp	/^Mat ImageEnhancer::enhance(Mat image, Mat weights, int scale)$/;"	f	class:ImageEnhancer	signature:(Mat image, Mat weights, int scale)
 ImageEnhancer::enhance	src/ImageEnhancer.h	/^    Mat enhance(Mat image, Mat weights, int scale = 2);$/;"	p	class:ImageEnhancer	access:public	signature:(Mat image, Mat weights, int scale = 2)
 ImageEnhancer::~ImageEnhancer	src/ImageEnhancer.cpp	/^ImageEnhancer::~ImageEnhancer()$/;"	f	class:ImageEnhancer	signature:()
 ImageEnhancer::~ImageEnhancer	src/ImageEnhancer.h	/^    virtual ~ImageEnhancer();$/;"	p	class:ImageEnhancer	access:public	signature:()
@@ -84,6 +85,7 @@ TestDescription_ImageLoaderTest_testLoadingImages::TestDescription_ImageLoaderTe
 TestDescription_ImageLoaderTest_testLoadingImages::runTest	test/runner.cpp	/^ void runTest() { suite_ImageLoaderTest.testLoadingImages(); }$/;"	f	class:TestDescription_ImageLoaderTest_testLoadingImages	access:public	signature:()
 Tests_ImageLoaderTest	test/runner.cpp	/^static CxxTest::List Tests_ImageLoaderTest = { 0, 0 };$/;"	v	file:
 UTIL	src/util.h	2;"	d
+enhance	src/ImageEnhancer.cpp	/^Mat ImageEnhancer::enhance(Mat image, Mat weights, int scale)$/;"	f	class:ImageEnhancer	signature:(Mat image, Mat weights, int scale)
 enhance	src/ImageEnhancer.h	/^    Mat enhance(Mat image, Mat weights, int scale = 2);$/;"	p	class:ImageEnhancer	access:public	signature:(Mat image, Mat weights, int scale = 2)
 fileNames	src/ImageLoader.h	/^    std::list<std::string>          fileNames;$/;"	m	class:ImageLoader	access:private
 getFileNames	src/ImageLoader.cpp	/^const std::list<std::string> & ImageLoader::getFileNames()$/;"	f	class:ImageLoader	signature:()

@@ -17,6 +17,7 @@ int main( int argc, char *argv[] ) {
 #include "ImageLoaderTest.h"
 
 static ImageLoaderTest suite_ImageLoaderTest;
+static testVariable;
 
 static CxxTest::List Tests_ImageLoaderTest = { 0, 0 };
 CxxTest::StaticSuiteDescription suiteDescription_ImageLoaderTest( "ImageLoaderTest.h", 7, "ImageLoaderTest", suite_ImageLoaderTest, Tests_ImageLoaderTest );
